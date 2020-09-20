@@ -1,8 +1,12 @@
 package main
 import (
-    "context"
-    "fmt"
+    "encoding/json"
+    "io/ioutil"
+    "log"
     "os"
+
+    "context"
+
     pb "github.com/Belyakoff/rservice/tree/master/proto"
     "google.golang.org/grpc"
     "google.golang.org/grpc/grpclog"

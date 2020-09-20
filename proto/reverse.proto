@@ -1,5 +1,6 @@
 syntax = "proto3";
 
+package proto;
 
 service Reverse {
     rpc Do(Request) returns (Response) {}

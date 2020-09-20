@@ -4,7 +4,9 @@ import (
     pb "github.com/Belyakoff/rservice/tree/master/proto"
     "golang.org/x/net/context"
     "google.golang.org/grpc"
+    "google.golang.org/grpc/reflection"
     "google.golang.org/grpc/grpclog"
+
 )
 func main() {
     listener, err := net.Listen("tcp", ":5300")
