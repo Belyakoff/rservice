@@ -7,7 +7,7 @@ import (
 
     "context"
 
-    pb "github.com/Belyakoff/rservice/tree/master/proto"
+    pb "github.com/Belyakoff/rservice/tree/master/server/proto"
     "google.golang.org/grpc"
     "google.golang.org/grpc/grpclog"
 )
