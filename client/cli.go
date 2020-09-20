@@ -3,7 +3,7 @@ import (
     "context"
     "fmt"
     "os"
-    pb "github.com/Belyakoff/rservice/tree/master/proto/reverse"
+    pb "github.com/Belyakoff/rservice/tree/master/proto"
     "google.golang.org/grpc"
     "google.golang.org/grpc/grpclog"
 )
