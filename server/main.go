@@ -1,7 +1,7 @@
 package main
 import (
     "net"
-    pb "github.com/Belyakoff/rservice/tree/master/server/proto/reverse"
+    pb "github.com/Belyakoff/rservice/tree/master/proto/reverse"
     "golang.org/x/net/context"
     "google.golang.org/grpc"
     "google.golang.org/grpc/grpclog"
